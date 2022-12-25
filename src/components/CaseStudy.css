@@ -1,0 +1,111 @@
+.casestudy-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.case-main{
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.case-main > h1{
+    text-align: left;
+}
+
+.cs-detail1{
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.cs-detail2{
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+h1,p{
+    color: white;
+}
+
+.myimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.detail-img{
+    line-height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+@media screen and (max-width: 425px) {
+    .case-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .cs-detail1{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .cs-detail2{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+    
+    .casemain > h1,p{
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .myimg{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+    
+    .detail-img{
+        line-height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .detail-img > h3{
+        font-size: 18px;
+        text-align: center;
+        display: inline;
+    }
+
+    .para{
+        text-align: center;
+        font-size: 15px;
+    }
+}
