@@ -29,11 +29,11 @@
 }
 
 .button {
-  background-color: blue;
+  background-color: white;
   border: 0px;
   height: 40px;
   width: 120px;
-  color: white;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   text-transform: uppercase;
