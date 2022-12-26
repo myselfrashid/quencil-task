@@ -63,29 +63,31 @@
   .alumni-flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
 
   .box1 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-row: 1fr;
     gap: 1rem;
+    justify-items: center;
   }
 
   .box2 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-row: 1fr;
     gap: 1rem;
+    justify-items: center;
   }
 
   .photo-box {
-    width: 90px;
-    height: 60px;
+    width: 120px;
+    height: 80px;
     background-color: white;
     border-radius: 10px;
   }
