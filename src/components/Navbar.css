@@ -22,7 +22,9 @@ body {
   display: inline-block;
   font-size: 22px;
   color: #fff;
-  padding: 10px 10px 10px 10px;
+  margin-left: 30px;
+  padding: 10px 10px 10px 0px;
+  cursor: pointer;
 }
 
 .nav > .nav-btn {

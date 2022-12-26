@@ -4,8 +4,8 @@ const Founder = () => {
     return (
         <div className='founder'>
             <div className='founder-box'>
-                <h1>Meet our Founder</h1>
-                <p>
+                <h1 className='founder-heading'>Meet our Founder</h1>
+                <p className='founder-para'>
                     Our Founder Mr. Kunal Sharma has designed and delivered the Quencil Java Full Stack Developer (JFSD)
                     course, which is a 1000+ hour comprehensive, intensive, immersive, Edutainment based 360° Skills
                     program and is a full one-stop solution to pursue your IT professional goals.

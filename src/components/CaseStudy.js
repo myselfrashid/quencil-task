@@ -9,8 +9,9 @@ const CaseStudy = () => {
     return (
         <div className='case-main'>
             <div>
-                <h1>Case Studies and Projects</h1>
-                <p>Solution to real-time scenarios on both client side & server side.</p>
+                <h1 className='main-text'>Case Studies and Projects</h1>
+                <br/>
+                <p className='main-text-para'>Solution to real-time scenarios on both client side & server side.</p>
             </div>
             <div className='casestudy-details'>
                 <div className='cs-detail1'>

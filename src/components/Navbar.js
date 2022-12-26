@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import logo from '../assets/01.jpg';
+import logo from '../assets/logo.png';
 import { Link, Outlet,  } from "react-router-dom";
 import './Navbar.css';
 

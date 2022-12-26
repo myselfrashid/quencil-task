@@ -10,15 +10,15 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="app">
-      <Navbar></Navbar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="alumni" element={<Alumni />} />
-        <Route path="casestudy" element={<CaseStudy />} />
-        <Route path="detail" element={<Detail />} />
-        <Route path="founder" element={<Founder />} />
-        <Route path="joinquencil" element={<JoinQuencil />} />
-      </Routes>
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="alumni" element={<Alumni />} />
+          <Route path="casestudy" element={<CaseStudy />} />
+          <Route path="detail" element={<Detail />} />
+          <Route path="founder" element={<Founder />} />
+          <Route path="joinquencil" element={<JoinQuencil />} />
+        </Routes>
     </div>
   )
 }

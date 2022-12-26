@@ -3,11 +3,12 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    padding: 1rem;
     margin: 2rem;
-    border: dashed white 2px;
+    border: dashed rgba(255, 255, 255, 0.7) 2px;
     gap: 5%;
 }
+
 .founder-box{
     display: flex;
     flex-direction: column;
@@ -25,14 +26,24 @@
     border-radius: 20px;
 }
 
+.founder-heading{
+    display: inline;
+    color: white;
+    margin: 0;
+}
+
+.founder-para{
+    display: inline;
+    color: white;
+}
 
 .white-button{
     background-color: white;
     color: blue;
     width: 150px;
-    height: 50px;
+    height: 40px;
     border: none;
-    font-weight: bold
+    font-weight: normal;
 }
 
 @media screen and (max-width: 425px) {
