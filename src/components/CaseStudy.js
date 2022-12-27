@@ -26,7 +26,7 @@ const CaseStudy = () => {
                     <div className='detail-img'>
                         <img className='myimg' src={img2} alt='img2' width={150}></img>
                         <h3>REQUIREMENT ANALYSIS</h3>
-                        <p className="para">Identify User-Story Elaborations Identify Scope & Scope-Creep Identify Functional & non-Functional Requirements</p>
+                        <p className="para">Identify User-Story Elaborations<br/>Identify Scope & Scope-Creep<br/>Identify Functional & Non-Functional Requirements</p>
                     </div>
                     <div className='detail-img'>
                         <img className='myimg' src={img3} alt='img3' width={150}></img>

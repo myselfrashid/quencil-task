@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import logo from '../assets/logo.png';
-import { Link, Outlet,  } from "react-router-dom";
+import { Link, Outlet, } from "react-router-dom";
 import './Navbar.css';
 
 
@@ -9,28 +9,39 @@ const Navbar = () => {
         <Fragment>
             <header>
                 <div className="nav">
-                    <input type="checkbox" id="nav-check"/>
-                        <div className="nav-header">
-                            <div className="nav-title">
-                                <Link to="/"><img src={logo} alt="logo" width={120} /></Link>
-                            </div>
+                    <input type="checkbox" id="nav-check" />
+                    <div className="nav-header">
+                        <div className="nav-title">
+                            <Link to="/"><img src={logo} alt="logo" width={120} /></Link>
                         </div>
-                        <div className="nav-btn">
-                            <label for="nav-check">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </label>
-                        </div>
+                    </div>
+                    <div className="nav-btn">
+                        <label for="nav-check">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
 
-                        <div className="nav-links">
-                            <Link to="/">HOME</Link>
-                            <Link to="casestudy">CASE STUDY</Link>
-                            <Link to="joinquencil">WHY QUENCIL</Link>
-                            <Link to="detail">DETAILED ANALYSIS</Link>
-                            <Link to="alumni">OUR ALUMNI</Link>
-                            <Link to="founder">ABOUT</Link>
-                        </div>
+                    <div className="nav-links">
+                        <Link to="/">HOME</Link>
+                        <Link to="">CAREER CAMP</Link>
+                        <Link to="">TECHNICAL COURSES
+                            <span className="span-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </Link>
+                        <Link to="">NON TECHNICAL COURSES<span className="span-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </span>
+                        </Link>
+                        <Link to="">TRAINING JOURNEY</Link>
+                        <Link to="">CONTACT US</Link>
+                    </div>
                 </div>
             </header>
             <Outlet />

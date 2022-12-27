@@ -1,134 +1,142 @@
-.casestudy-details{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.casestudy-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.case-main{
-    box-sizing: border-box;
-    margin: 0rem 4rem;
-    display: flex;
-    flex-direction: column;
-    width: auto;
+.case-main {
+  box-sizing: border-box;
+  display: flex;
+  padding: 2rem 4rem;
+  flex-direction: column;
+  width: auto;
+  background-color: #030d42;
 }
 
-.cs-detail1{
-    color: white;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: auto;
+.cs-detail1 {
+  color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.cs-detail2{
-    color: white;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: auto;
+.cs-detail2 {
+  color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.main-text{
-    color: white;
-    text-align: left;
-    display: inline-flex;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
+.main-text {
+  color: white;
+  text-align: left;
+  display: inline-flex;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 
-.main-text-para{
-    color: white;
-    display: inline-flex;
-    margin: 1rem 0rem;
+.main-text-para {
+  color: white;
+  display: inline-flex;
+  margin: 1rem 0rem;
 }
 
-.myimg{
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
+.myimg {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
 }
 
-.detail-img{
-    line-height: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
+.detail-img {
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
 }
 
-.detail-img > h3{
-    display: inline;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    font-size: 14px;
-    font-weight: normal;
+.detail-img > h3 {
+  display: inline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
 }
 
-.detail-img > p{
-    display: inline;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    font-size: 12px;
+.detail-img > p {
+  display: inline;
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 @media screen and (max-width: 425px) {
-    .case-main{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 1rem;
-        text-align: center;
-    }
-    
-    .cs-detail1{
-        color: white;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .cs-detail2{
-        color: white;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 0;
-    }
-    
-    .casemain > h1,p{
-        font-size: 1rem;
-        color: white;
-    }
-    
-    .myimg{
-        width: 120px;
-        height: 120px;
-        border-radius: 20px;
-    }
-    
-    .detail-img{
-        line-height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 10px 5px;
-    }
+  .casestudy-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .detail-img > h3{
-        font-size: 18px;
-        text-align: center;
-        display: inline;
-    }
+  .case-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    width: auto;
+  }
 
-    .para{
-        text-align: center;
-        font-size: 15px;
-    }
+  .cs-detail1 {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cs-detail2 {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .casemain > h1,
+  p {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .myimg {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+  }
+
+  .detail-img {
+    line-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 5px;
+  }
+
+  .detail-img > h3 {
+    font-size: 18px;
+    text-align: center;
+    display: inline;
+  }
+
+  .para {
+    text-align: center;
+    font-size: 15px;
+  }
 }

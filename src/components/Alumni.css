@@ -1,31 +1,33 @@
 .alumni-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 1rem 0rem;
-  gap: 30px;
+  justify-content: right;
+  height: 100vh;
+  width: 100%;
+  background-color: #030d42;
+  padding: 2rem 4rem;
+  gap: 4rem;
 }
 
 .alumni-flex {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   margin: 1rem 0rem;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .box1 {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  column-gap: 2rem;
 }
 
 .box2 {
-  margin-top: 20px;
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,24 +35,26 @@
 }
 
 .photo-box {
-  width: 180px;
-  height: 150px;
+  width: 11rem;
+  height: 8rem;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 22px;
 }
 
 .alumni-heading {
   color: white;
-  display: inline;
-  margin: 1rem 6rem;
 }
 
 @media screen and (max-width: 425px) {
   .alumni-box {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    margin: 1rem;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: #030d42;
+    padding: 2rem 4rem;
+    gap: 4rem;
   }
 
   .alumni-heading {

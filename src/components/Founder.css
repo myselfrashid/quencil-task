@@ -1,18 +1,29 @@
 .founder{
     box-sizing: border-box;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     margin: 2rem;
-    border: dashed rgba(255, 255, 255, 0.7) 2px;
     gap: 5%;
+    scroll-snap-align: start;
 }
 
 .founder-box{
+    border: dashed #FFFFFF 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.founder-text{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    justify-content: flex-start;
+    width: 70%;
 }
 
 .text{
@@ -21,7 +32,7 @@
 
 .founder-box1{
     width: 250px;
-    height: 250px;
+    height: 300px;
     background-color: white;
     border-radius: 20px;
 }
@@ -35,6 +46,7 @@
 .founder-para{
     display: inline;
     color: white;
+    font-weight: normal;
 }
 
 .white-button{
@@ -63,6 +75,7 @@
         margin: 0;
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 
     .founder-box > h1 {
@@ -72,6 +85,26 @@
         font-size: 1.6rem;
     }
     
+    .founder-heading{
+        display: inline;
+        color: white;
+        margin: 0;
+    }
+    
+    .founder-para{
+        width: 100%;
+        display: inline;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .founder-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 2rem;
+    }
     
     .founder-box1{
         display: none;
